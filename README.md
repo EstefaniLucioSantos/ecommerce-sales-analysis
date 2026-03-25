@@ -18,12 +18,12 @@ O conjunto de dados utilizado neste projeto é o Olist E-commerce Dataset, dispo
 
 Ele contém informações sobre:
 
-Pedidos
-Clientes
-Produtos
-Pagamentos
-Datas de entrega
-Categorias de produtos
+- Pedidos
+- Clientes
+- Produtos
+- Pagamentos
+- Datas de entrega
+- Categorias de produtos
 
 - Perguntas de Negócio
 
@@ -68,18 +68,14 @@ Esses insights podem ajudar empresas a otimizar a logística e focar em categori
 
 📁 Estrutura do Projeto
 ecommerce-sales-analysis
-│
 ├── data
 │   └── raw
-│
 ├── images
 │   ├── orders_per_month.png
 │   ├── delivery_time_distribution.png
 │   └── top_categories.png
-│
 ├── notebooks
 │   └── analise_vendas.ipynb
-│
 ├── requirements.txt
 └── README.md
 

@@ -6,11 +6,11 @@ Este projeto analisa dados de vendas de uma plataforma brasileira de e-commerce 
 - O objetivo desta análise é demonstrar habilidades de análise de dados utilizando Python e conjuntos de dados do mundo real.
 
 -Ferramentas Utilizadas
-Python
-Pandas
-Matplotlib
-Seaborn
-Jupyter Notebook
+- Python
+- Pandas
+- Matplotlib
+- Seaborn
+- Jupyter Notebook
 
 - Conjunto de Dados
 

@@ -83,5 +83,4 @@ ecommerce-sales-analysis
 ├── requirements.txt
 └── README.md
 
-
-Data Analysis project developed for portfolio purposes.
+Projeto desenvolvido por Estefani Lucio dos Santos, para fins de estudo e portfólio.

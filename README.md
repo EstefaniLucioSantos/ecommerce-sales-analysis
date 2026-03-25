@@ -1,90 +1,72 @@
-# 📊 E-commerce Sales Analysis
+Análise de Vendas de E-commerce
+Visão Geral do Projeto
 
-## Project Overview
+Este projeto analisa dados de vendas de uma plataforma brasileira de e-commerce com o objetivo de extrair insights de negócio sobre pedidos, desempenho de entregas e receita por categoria de produto.
 
-This project analyzes sales data from a Brazilian e-commerce platform in order to extract business insights about orders, delivery performance, and product category revenue.
+- O objetivo desta análise é demonstrar habilidades de análise de dados utilizando Python e conjuntos de dados do mundo real.
 
-The goal of this analysis is to demonstrate data analysis skills using Python and real-world datasets.
+-Ferramentas Utilizadas
+Python
+Pandas
+Matplotlib
+Seaborn
+Jupyter Notebook
 
----
+- Conjunto de Dados
 
-## 🛠 Tools Used
+O conjunto de dados utilizado neste projeto é o Olist E-commerce Dataset, disponível no Kaggle.
 
-* Python
-* Pandas
-* Matplotlib
-* Seaborn
-* Jupyter Notebook
+Ele contém informações sobre:
 
----
+Pedidos
+Clientes
+Produtos
+Pagamentos
+Datas de entrega
+Categorias de produtos
 
-## 📂 Dataset
+- Perguntas de Negócio
 
-The dataset used in this project is the **Olist E-commerce Dataset** from Kaggle.
+Esta análise busca responder às seguintes perguntas:
 
-It contains information about:
+Como o número de pedidos evoluiu ao longo do tempo?
+Qual é a distribuição dos tempos de entrega?
+Quais categorias de produtos geram mais receita?
+Existem padrões que podem ajudar a melhorar a logística?
+Quais segmentos de produtos contribuem mais para as vendas da plataforma?
 
-* Orders
-* Customers
-* Products
-* Payments
-* Delivery dates
-* Product categories
+Essas perguntas ajudam a transformar dados brutos em insights de negócio acionáveis.
 
----## Business Questions
+📊 Principais Análises
+📈 Crescimento de Pedidos ao Longo do Tempo
 
-This analysis aims to answer the following business questions:
+Este gráfico mostra como o número de pedidos evoluiu ao longo do tempo.
 
-* How has the number of orders changed over time?
-* What is the distribution of delivery times?
-* Which product categories generate the highest revenue?
-* Are there patterns that could help improve logistics performance?
-* Which product segments contribute the most to the platform’s sales?
+Pedidos por mês
 
-These questions help transform raw data into actionable business insights.
+- Distribuição do Tempo de Entrega
 
+Esta análise mostra quanto tempo as entregas levam, em média.
 
-## 📊 Key Analyses
+- Tempo de entrega
 
-### 📈 Orders Growth Over Time
+Principais Categorias por Receita
 
-This chart shows how the number of orders evolved over time.
+Este gráfico destaca quais categorias de produtos geram mais receita.
 
-![Orders per Month](images/orders_per_month.png)
+Top categorias
 
----
+- Insights de Negócio
 
-### 🚚 Delivery Time Distribution
+A partir desta análise, podemos observar:
 
-This analysis shows how long deliveries take on average.
+O volume de pedidos aumentou ao longo do tempo, indicando crescimento da plataforma
+A maioria das entregas ocorre dentro de um intervalo consistente
+Um pequeno número de categorias gera grande parte da receita
 
-![Delivery Time](images/delivery_time_distribution.png)
+Esses insights podem ajudar empresas a otimizar a logística e focar em categorias de maior desempenho.
 
----
-
-### 💰 Top Product Categories by Revenue
-
-This chart highlights which product categories generate the most revenue.
-
-![Top Categories](images/top_categories.png)
-
----
-
-## 💡 Business Insights
-
-From this analysis we can observe:
-
-* Order volume increased over time, indicating platform growth.
-* Most deliveries occur within a consistent time range.
-* A small number of product categories generate a large portion of revenue.
-
-These insights could help businesses optimize logistics and focus on high-performing product categories.
-
----
-
-## 📁 Project Structure
-
-```
+📁 Estrutura do Projeto
 ecommerce-sales-analysis
 │
 ├── data
@@ -100,10 +82,6 @@ ecommerce-sales-analysis
 │
 ├── requirements.txt
 └── README.md
-```
 
----
-
-## Author
 
 Data Analysis project developed for portfolio purposes.
